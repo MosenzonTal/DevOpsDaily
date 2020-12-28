@@ -48,7 +48,7 @@ For simplicity, the database will be stored as a simple JSON file in the followi
 
 ### Unit Tests
 
-In the tests stage stage we should write a simple unit-test for testing the functionality of the application.
+In the tests stage we should write a simple unit-test for testing the functionality of the application.
 The unit-test creates a **mock JSON** database file (users.json) with predefined data, and validate that the application returns the correct information.
 
 For example, given the following input file:
