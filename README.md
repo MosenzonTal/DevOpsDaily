@@ -44,3 +44,49 @@ For simplicity, the database will be stored as a simple JSON file in the followi
 *• users.json File is stored in JsonPlaceHolder, which will be used as the db server, receiving HTTP get requests from the application.<br>*
 *• The application was built by using the simple Flask web Framework.*
 
+### Containers
+
+### Unit Tests
+
+In the tests stage stage we should write a simple unit-test for testing the functionality of the application.
+The unit-test creates a **mock JSON** database file (users.json) with predefined data, and validate that the application returns the correct information.
+
+For example, given the following input file:
+```json
+{
+    "test_user": {
+        "id": "test",
+        "name": "Test User",
+        "favorite_color": "Black"
+    }
+}
+```
+
+(Test #1) Accessing the /users URI should return:
+
+```cpp
+{
+    "test_user": {
+        "name": "Test User",
+        "favorite_color": "Black"
+    }
+}
+
+```
+(Test #2) Accessing the /user/test_user URI should return:
+
+```json
+{
+    "test_user": {
+        "id": "test",
+        "name": "Test User",
+        "favorite_color": "Black"
+    }
+}
+```
+
+(Test #3) Accessing the /user/test_user123 URI should return **HTTP code 404 as the user does not exist in the database.**
+
+• For this stage, I used **Pytest framework** to test the application functionality.
+
+• For testing with mock JSON database file object, I have used the: unittest.mock library, which allows replacing parts of the system under test with mock objects and making assertions about how they have been used.
