@@ -62,7 +62,7 @@ For example, given the following input file:
 }
 ```
 
-(Test #1) Accessing the /users URI should return:
+**(Test #1)** Accessing the /users URI should return:
 
 ```cpp
 {
@@ -73,7 +73,7 @@ For example, given the following input file:
 }
 
 ```
-(Test #2) Accessing the /user/test_user URI should return:
+**(Test #2)** Accessing the /user/test_user URI should return:
 
 ```json
 {
@@ -85,7 +85,7 @@ For example, given the following input file:
 }
 ```
 
-(Test #3) Accessing the /user/test_user123 URI should return **HTTP code 404 as the user does not exist in the database.**
+**(Test #3)** Accessing the /user/test_user123 URI should return **HTTP code 404 as the user does not exist in the database.**
 
 • For this stage, I used **Pytest framework** to test the application functionality.
 • For testing with mock JSON database file object, I have used the: unittest.mock library, which allows replacing parts of the system under test with mock objects and making assertions about how they have been used.
