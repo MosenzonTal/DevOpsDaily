@@ -98,10 +98,10 @@ In the last stage, we have a working app that can also run inside a container, w
 
 
 <p align="center">
-  <img src="https://www.lacework.com/wp-content/uploads/2020/08/up-and-running-with-lacework-and-jenkins.png" width="250" title="hover text">
-    <img src="https://cdn.vox-cdn.com/thumbor/1yDRMoogTR55jiv_b-PVZLXWv8A=/0x0:792x613/1220x813/filters:focal(300x237:426x363):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/59850273/Docker_logo_011.0.png" width="250" title="hover text">
-  <img src="https://www.almtoolbox.com/blog_he/wp-content/uploads/2017/09/Git-Logo-2Color-1.png" width="250" title="hover text">
-    <img src="https://www.macworld.co.uk/cmsdata/features/3635912/learn_python_mac_thumb800.jpg" width="250" title="hover text">
+  <img src="https://www.lacework.com/wp-content/uploads/2020/08/up-and-running-with-lacework-and-jenkins.png" width="215" title="hover text">
+    <img src="https://img.techentice.com/media/2020/06/docker.png" width="215" title="hover text">
+  <img src="https://www.almtoolbox.com/blog_he/wp-content/uploads/2017/09/Git-Logo-2Color-1.png" width="215" title="hover text">
+    <img src="https://www.macworld.co.uk/cmsdata/features/3635912/learn_python_mac_thumb800.jpg" width="215" title="hover text">
 </p>
 
 
