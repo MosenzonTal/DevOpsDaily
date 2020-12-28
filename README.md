@@ -87,7 +87,7 @@ For example, given the following input file:
 
 **(Test #3)** Accessing the /user/test_user123 URI should return **HTTP code 404 as the user does not exist in the database.**
 
-• For this stage, I used **Pytest framework** to test the application functionality.
+• For this stage, I used **Pytest framework** to test the application functionality. <br>
 • For testing with mock JSON database file object, I have used the: unittest.mock library, which allows replacing parts of the system under test with mock objects and making assertions about how they have been used.
 
 ###  CI
