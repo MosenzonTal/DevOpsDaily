@@ -7,7 +7,7 @@
 
 **DevOpsDaily is a simple RESTful API application to provide access to a database of users and performing various actions on it.**
 
-For simplicity, the database will be stored as a simple JSON file in the following format:
+For simplicity, the database will be stored as a simple JSON file in the following format:<br>
 *users.json*:
 ```json
 {
@@ -21,7 +21,16 @@ For simplicity, the database will be stored as a simple JSON file in the followi
         "name": "Kelsea Head",
         "favorite_color": "Ping"
     },
-
+    "phoenix_knox": {
+        "id": "jikininer",
+        "name": "Phoenix Knox",
+        "favorite_color": "Green"
+    },
+    "adina_norton": {
+        "id": "slimewagner",
+        "name": "Adina Norton",
+        "favorite_color": "Red"
+    }
 }
 
 ```
