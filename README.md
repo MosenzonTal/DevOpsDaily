@@ -41,6 +41,6 @@ For simplicity, the database will be stored as a simple JSON file in the followi
   <img src="https://imagizer.imageshack.com/img924/2343/Bwsa9t.png" width="650" title="hover text">
 </p>
 
-**• users.json File is stored in JsonPlaceHolder, which will be used as the db server, receiving HTTP get requests from the application.<br>**
-**• The application was built by using the simple Flask web Framework.**
+*• users.json File is stored in JsonPlaceHolder, which will be used as the db server, receiving HTTP get requests from the application.<br>*
+*• The application was built by using the simple Flask web Framework.*
 
