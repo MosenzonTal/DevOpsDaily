@@ -89,3 +89,6 @@ For example, given the following input file:
 
 • For this stage, I used **Pytest framework** to test the application functionality.
 • For testing with mock JSON database file object, I have used the: unittest.mock library, which allows replacing parts of the system under test with mock objects and making assertions about how they have been used.
+
+###  CI
+In the last stage, we have a working app that can also run inside a container, we should setup CI for it, so it won't break in the future.
