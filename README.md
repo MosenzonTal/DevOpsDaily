@@ -1,4 +1,4 @@
-###   **Project Description**
+##   **Project Description**
 **The purpose of this project is to demonstrate the DevOps daily routine to manage the entire application development lifecycle that is: Development, Testing, Deployment, and monitoring.**
 
 <p align="center">
