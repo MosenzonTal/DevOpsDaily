@@ -98,10 +98,11 @@ In the last stage, we have a working app that can also run inside a container, w
 
 
 <p align="center">
-  <img src="https://www.lacework.com/wp-content/uploads/2020/08/up-and-running-with-lacework-and-jenkins.png" width="215" title="hover text">
-    <img src="https://img.techentice.com/media/2020/06/docker.png" width="210" title="hover text">
+  <img src="https://www.lacework.com/wp-content/uploads/2020/08/up-and-running-with-lacework-and-jenkins.png" width="260" title="hover text">
   <img src="https://www.almtoolbox.com/blog_he/wp-content/uploads/2017/09/Git-Logo-2Color-1.png" width="215" title="hover text">
-    <img src="https://www.macworld.co.uk/cmsdata/features/3635912/learn_python_mac_thumb800.jpg" width="215" title="hover text">
+    <img src="https://www.macworld.co.uk/cmsdata/features/3635912/learn_python_mac_thumb800.jpg" width="260" title="hover text">
+      <img src="https://img.techentice.com/media/2020/06/docker.png" width="200" title="hover text">
+
 </p>
 
 
