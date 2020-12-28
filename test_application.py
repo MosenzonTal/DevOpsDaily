@@ -45,7 +45,7 @@ class TestEndpoints(unittest.TestCase):
             self.assertEqual(response, json.dumps({
                 "test_user": {
                     "id": "test",
-                    "name": "Test User",
+                    "name2": "Test User",
                     "favorite_color": "Black"
                 }
             }))
