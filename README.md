@@ -139,8 +139,10 @@ py -m pytest --junitxml=test.xml
 
 
 <p align="center">
-       **##© 2020 Tal Mosenzon.  All rights reserved.**
+       © 2020 Tal Mosenzon.  All rights reserved.
 </p>
+
+#### **  © 2020 Tal Mosenzon.  All rights reserved.**
 
 <p align="center">
       <img src="https://www.macworld.co.uk/cmsdata/features/3635912/learn_python_mac_thumb800.jpg" width="200" title="hover text">
