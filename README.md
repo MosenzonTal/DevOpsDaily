@@ -123,7 +123,7 @@ py -m pytest --junitxml=test.xml
 ```
 **Configuring GitHub
 <p align="left">
-      <img src="https://imagizer.imageshack.com/img922/1069/IEp5JG.png" width="800" title="hover text">
+      <img src="https://imagizer.imageshack.com/img922/1069/IEp5JG.png" width="500" title="hover text">
 </p>
 
 **running all unit-tests from *test_application.py* and getting Success.
