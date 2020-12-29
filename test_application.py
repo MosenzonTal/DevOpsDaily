@@ -55,5 +55,5 @@ class TestEndpoints(unittest.TestCase):
         with patch('usersAPI.requests.get') as mock_get:
             mock_get.return_value.ok = True
             mock_get.return_value.json.return_value = self.fake_json
-            response = usersAPI.searchUserByName('test_user')
+            response = usersAPI.searchUserByName('test_user123')
             self.assertEqual(response, 'HTTP code 404 - the user does not exist in the database')
