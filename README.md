@@ -122,18 +122,18 @@ py -m pytest --junitxml=test.xml
 
 ```
 **Configuring GitHub
-<p align="center">
+<p align="left">
       <img src="https://imagizer.imageshack.com/img922/1069/IEp5JG.png" width="500" title="hover text">
 </p>
 
 **running all unit-tests from *test_application.py* and getting Success.
-<p align="center">
+<p align="left">
       <img src="https://imagizer.imageshack.com/img923/9517/wwDJUW.png" width="700" title="hover text">
 </p>
 
 **running all unit-tests from *test_application.py* and getting failure by looking for a user which is exist in the fake database (mock JSON)(Test #3).
 
-<p align="center">
+<p align="left">
       <img src="https://imagizer.imageshack.com/img922/872/hLsJ5T.png" width="700" title="hover text">
 </p>
 
