@@ -94,8 +94,33 @@ For example, given the following input file:
 
 ###  CI
 In the last stage, we have a working app that can also run inside a container, we should setup CI for it, so it won't break in the future.
+for setting up the CI I have used the following guidelines:
 
+1.	 Installed and Set up the project in **Jenkins** +**configured** required **Jenkins** Plugins to run **Python Unit Test**.
+2.	Clone the application source code from a GitHub repository.
+3.	**Verify the result** - run the unit-test and made sure all the tests pass.
+4.	BONUS: Automatically execute the CI on every new pull request.
 
+For Seting up the project in Jenkins I used "Build a free-style software project" and added a build step "Execute Windows batch command", with the following configuration:
+
+```bash
+echo '#### create Python3 Virtual Environment ####'
+source scl_source enable rh-python36
+
+VIRTUAL_ENV_NAME='virtual-environment'
+py -m venv $VIRTUAL_ENV_NAME
+
+echo '#### Avtivate Virtual Environment ####'
+source $VIRTUAL_ENV_NAME/bin/activate
+
+echo '#### Install requirments ####'
+py -m pip install -r requirements.txt
+py -m pip install --upgrade pip
+
+echo '#### Run Tests ####'
+py -m pytest --junitxml=test.xml
+
+```
 
 <p align="center">
       <img src="https://www.macworld.co.uk/cmsdata/features/3635912/learn_python_mac_thumb800.jpg" width="200" title="hover text">
