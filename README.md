@@ -44,9 +44,13 @@ For simplicity, the database will be stored as a simple JSON file in the followi
 *• users.json File is stored in JsonPlaceHolder, which will be used as the db server, receiving HTTP get requests from the application.<br>*
 *• The application was built by using the simple Flask web Framework.*
 
+--------
+
 ### Containers
 
 -------------------------- TO EDIT -----------------------------
+
+--------
 
 ### Unit Tests
 
