@@ -139,7 +139,7 @@ py -m pytest --junitxml=test.xml
 
 
 <p align="center">
-      **© 2020 Tal Mosenzon.  All rights reserved.**
+       **##© 2020 Tal Mosenzon.  All rights reserved.**
 </p>
 
 <p align="center">
