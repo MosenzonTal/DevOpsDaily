@@ -141,7 +141,6 @@ py -m pytest --junitxml=test.xml
 <p align="center">
   <b>© 2020 Tal Mosenzon.  All rights reserved.</b>
 </p>
-
 ------------
 
 <p align="center">
