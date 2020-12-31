@@ -76,6 +76,8 @@ CMD [ "app.py" ]
 <p align="left">
       <img src="https://imagizer.imageshack.com/img924/5323/YPSZMd.png" width="800" title="hover text">
 </p>
+
+**Now we have the Application containerize and running as a proccess in the Docker.**
 --------
 
 ### Unit Tests
