@@ -54,7 +54,7 @@ In order to do so, i'll be using Docker Desktop and build a container so users c
 *$ docker build -t app:latest /path/to/Dockerfile* <br>
 *$ docker run -d -p 5000:5000 app* <br>
 
-**to assemble an image I used a Dockerfile as follows:**
+**to assemble an image I used a *Dockerfile* as follows:**
 ```cpp
 FROM ubuntu:16.04
 RUN apt-get update -y && \
