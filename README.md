@@ -51,8 +51,8 @@ For simplicity, the database will be stored as a simple JSON file in the followi
 **Once we have a working application, we should containerize it.** <br>
 In order to do so i'll be using Docker Desktop and build a container so users can run the following two commands:
 
-$ docker build -t app:latest /path/to/Dockerfile
-$ docker run -d -p 5000:5000 app
+$ docker build -t app:latest /path/to/Dockerfile <br>
+$ docker run -d -p 5000:5000 app <br>
 
 **to assemble an image I used a Dockerfile as follows:**
 ```cpp
