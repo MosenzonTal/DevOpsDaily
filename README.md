@@ -67,12 +67,12 @@ COPY . /app
 ENTRYPOINT [ "python" ]
 CMD [ "app.py" ]
 ```
-**Using  the docker build command builds an image from a Dockerfile and results as follows:**
+Using the *docker build* command builds an image from a Dockerfile and results as follows:
 <p align="left">
       <img src="https://imagizer.imageshack.com/img923/6789/FvO9F5.png" width="800" title="hover text">
 </p>
 
-**Using  the docker run creates a container from the given image above and starts the container. results as follows:**
+Using the *docker run* creates a container from the given image above and starts the container. results as follows:
 <p align="left">
       <img src="https://imagizer.imageshack.com/img924/5323/YPSZMd.png" width="800" title="hover text">
 </p>
