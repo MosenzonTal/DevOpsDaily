@@ -48,7 +48,29 @@ For simplicity, the database will be stored as a simple JSON file in the followi
 
 ### Containers
 
--------------------------- TO EDIT -----------------------------
+###### Once we have a working application, we should containerize it.
+In order to do so i'll be using Docker Desktop and build a container so users can run the following two commands:
+
+$ docker build -t app:latest /path/to/Dockerfile
+$ docker run -d -p 5000:5000 app
+
+######  to assemble an image I used a Dockerfile as follows:
+```cpp
+FROM ubuntu:16.04
+RUN apt-get update -y && \
+    apt-get install -y python-pip python-dev
+#We copy just the requirements.txt first to leverage Docker cache
+COPY ./requirements.txt /app/requirements.txt
+WORKDIR /app
+RUN pip install -r requirements.txt
+COPY . /app
+ENTRYPOINT [ "python" ]
+CMD [ "app.py" ]
+```
+###### Using  the docker build command builds an image from a Dockerfile and results as follows:
+https://imagizer.imageshack.com/img923/6789/FvO9F5.png
+###### Using  the docker run creates a container from the given image above and starts the container. results as follows:
+https://imagizer.imageshack.com/img924/5323/YPSZMd.png
 
 --------
 
